@@ -4,7 +4,7 @@ import BoardCollab from './components/BoardCollab/index'
 
 const App = () => (
     <>
-        <BoardCollab />
+        <BoardCollab>Vai 15 dias</BoardCollab>
         <SquareCollab />
     </>
 )

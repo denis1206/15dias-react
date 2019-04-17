@@ -1,7 +1,7 @@
 import React from 'react'
 
-const BoardCollab = () => (
-    <article>teste</article>
+const BoardCollab = (props) => (
+    <article>{props.children}</article>
 );
 
 export default BoardCollab;
