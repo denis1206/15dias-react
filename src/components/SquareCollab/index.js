@@ -2,7 +2,7 @@ import React from 'react';
 import './styles.css';
  
 const handleClick = () => {
-    console.log("foi!")
+    console.log("foi! ")
 }
 
 const SquareCollab = () => (
