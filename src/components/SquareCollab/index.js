@@ -5,7 +5,7 @@ class SquareCollab extends Component{
     constructor(props){
         super(props);
         this.state = {
-            content: "X"
+            content: ""
         }
     }
 
