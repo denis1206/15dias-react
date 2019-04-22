@@ -3,18 +3,16 @@ import SquareCollab from '../SquareCollab';
 
 import './styles.css'
 
-const squareCollabs = qtd =>{
-    const squares = [];
+const createSquares = () => {
+    const squares = Array(9).fill();
 
-    while(qtd--){
-        squares.push(<SquareCollab key={qtd} />)
-    }
-
-    return squares;
+    return squares.map((square, index) => <SquareCollab key={index} />)
 }
 
-const BoardCollab = ({qtd}) => (
-    <article className="board-collab">{squareCollabs(qtd)}</article>
+const BoardCollab = () => (
+    <article className="board-collab">
+        {createSquares()}
+    </article>
 );
 
 export default BoardCollab;

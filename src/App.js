@@ -6,7 +6,7 @@ import BoardWrapper from './components/BoardWrapper/index'
 const App = () => (
     <BoardWrapper>
         <NextPlayer />
-        <BoardCollab qtd="1" />
+        <BoardCollab />
     </BoardWrapper>
 )
 
